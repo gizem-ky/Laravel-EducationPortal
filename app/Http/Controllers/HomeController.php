@@ -8,8 +8,8 @@ use Illuminate\View\View;
 
 class HomeController extends Controller
 {
-    public function Index()
+    public function About()
     {
-        return view('home.index');
+        return view('layouts.about');
     }
 }
