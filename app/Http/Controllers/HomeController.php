@@ -23,4 +23,9 @@ class HomeController extends Controller
         return view('layouts.teachers');
     }
 
+    public  function Contact()
+    {
+        return view('layouts.contact');
+    }
+
 }
