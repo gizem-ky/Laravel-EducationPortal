@@ -13,9 +13,14 @@ class HomeController extends Controller
         return view('layouts.about');
     }
 
-    public  function Courses(): \Illuminate\Contracts\View\View|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\Foundation\Application
+    public  function Courses()
     {
-        return view('welcome');
+        return view('layouts.courses');
+    }
+
+    public  function Teachers()
+    {
+        return view('layouts.teachers');
     }
 
 }

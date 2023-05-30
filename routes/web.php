@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 Route::get('/about', [HomeController::class, 'about']);
 Route::get('/courses', [HomeController::class, 'courses']);
+Route::get('/teachers', [HomeController::class, 'teachers']);
 
 Route::middleware([
     'auth:sanctum',
