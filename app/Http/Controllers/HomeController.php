@@ -8,24 +8,27 @@ use Illuminate\View\View;
 
 class HomeController extends Controller
 {
-    public function About()
+    public function index(){
+        return view('home.index');
+    }
+    public function about()
     {
-        return view('layouts.about');
+        return view('home.pages.about');
     }
 
-    public  function Courses()
+    public  function courses()
     {
-        return view('layouts.courses');
+        return view('home.pages.courses');
     }
 
-    public  function Teachers()
+    public  function teachers()
     {
-        return view('layouts.teachers');
+        return view('home.pages.teachers');
     }
 
-    public  function Contact()
+    public  function contact()
     {
-        return view('layouts.contact');
+        return view('home.pages.contact');
     }
 
 }

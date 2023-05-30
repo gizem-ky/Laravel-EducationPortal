@@ -57,8 +57,11 @@
                         </div>
                     </div>
                     <a href="" class="nav-item nav-link">Apps Design</a>
+                    <a href="" class="nav-item nav-link">Development</a>
+                    <a href="" class="nav-item nav-link">Game Design</a>
                     <a href="" class="nav-item nav-link">Marketing</a>
                     <a href="" class="nav-item nav-link">Research</a>
+                    <a href="" class="nav-item nav-link">Content Writing</a>
                     <a href="" class="nav-item nav-link">SEO</a>
                 </div>
             </nav>
@@ -73,11 +76,11 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="course.html" class="nav-item nav-link">Courses</a>
-                        <a href="teacher.html" class="nav-item nav-link">Teachers</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="{{route('home.index')}}" class="nav-item nav-link active">Home</a>
+                        <a href="{{route('home.about')}}" class="nav-item nav-link">About</a>
+                        <a href="{{route('home.courses')}}" class="nav-item nav-link">Courses</a>
+                        <a href="{{route('home.teachers')}}" class="nav-item nav-link">Teachers</a>
+                        <a href="{{route('home.contact')}}" class="nav-item nav-link">Contact</a>
                     </div>
                     <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Now</a>
                 </div>
