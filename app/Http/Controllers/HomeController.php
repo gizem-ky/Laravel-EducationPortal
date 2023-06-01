@@ -31,4 +31,24 @@ class HomeController extends Controller
         return view('home.pages.contact');
     }
 
+    public  function teacher1()
+    {
+        return view('home.pages.teacher1');
+    }
+
+    public  function teacher2()
+    {
+        return view('home.pages.teacher2');
+    }
+
+    public  function teacher3()
+    {
+        return view('home.pages.teacher3');
+    }
+
+    public  function teacher4()
+    {
+        return view('home.pages.teacher4');
+    }
+
 }

@@ -78,7 +78,7 @@
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>25 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
                             </div>
-                            <a class="h5" href="">Web Development with HTML5</a>
+                            <a class="h5" href="">Web Development with PHP</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>7.5 <small>(564)</small></h6>
@@ -112,61 +112,10 @@
                                 <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>44 Students</small>
                                 <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>03h 21m</small>
                             </div>
-                            <a class="h5" href="">Asp.Net Core Web API</a>
+                            <a class="h5" href="">3D Game Development with Unity</a>
                             <div class="border-top mt-4 pt-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>5.3 <small>(250)</small></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="{{asset('assets')}}/img/course-4.jpg" alt="">
-                        <div class="bg-secondary p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>48 Students</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>06h 53m</small>
-                            </div>
-                            <a class="h5" href="">Introduction to Digital Game Development with Unity</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>6.5 <small>(446)</small></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="{{asset('assets')}}/img/course-5.jpg" alt="">
-                        <div class="bg-secondary p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>125 Students</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>01h 30m</small>
-                            </div>
-                            <a class="h5" href="">Machine Learning with Python</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>9.8 <small>(1250)</small></h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="rounded overflow-hidden mb-2">
-                        <img class="img-fluid" src="{{asset('assets')}}/img/course-6.jpg" alt="">
-                        <div class="bg-secondary p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <small class="m-0"><i class="fa fa-users text-primary mr-2"></i>128 Students</small>
-                                <small class="m-0"><i class="far fa-clock text-primary mr-2"></i>06h 35m</small>
-                            </div>
-                            <a class="h5" href="">PL/SQL, Oracle Database Programming</a>
-                            <div class="border-top mt-4 pt-4">
-                                <div class="d-flex justify-content-between">
-                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>8.5 <small>(262)</small></h6>
                                 </div>
                             </div>
                         </div>
@@ -191,13 +140,13 @@
                         <div class="team-img position-relative">
                             <img class="img-fluid" src="{{asset('assets')}}/img/team-1.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://laravel.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://laravel.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://laravel.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                         <div class="bg-secondary p-4">
-                            <h5>Emilia Jones</h5>
+                            <a href="{{route('home.teacher1')}}" class="nav-item nav-link active">Emilia Jones</a>
                             <p class="m-0">Web Developer</p>
                         </div>
                     </div>
@@ -207,13 +156,13 @@
                         <div class="team-img position-relative">
                             <img class="img-fluid" src="{{asset('assets')}}/img/team-2.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://laravel.com/"target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://laravel.com/"target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://laravel.com/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                         <div class="bg-secondary p-4">
-                            <h5>Connor Jessup</h5>
+                            <a href="{{route('home.teacher2')}}" class="nav-item nav-link active">Connor Jessup</a>
                             <p class="m-0">Game Developer</p>
                         </div>
                     </div>
@@ -223,13 +172,13 @@
                         <div class="team-img position-relative">
                             <img class="img-fluid" src="{{asset('assets')}}/img/team-3.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://laravel.com/"target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://laravel.com/"target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://laravel.com/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                         <div class="bg-secondary p-4">
-                            <h5>Liyou Abere</h5>
+                            <a href="{{route('home.teacher3')}}" class="nav-item nav-link active">Liyou Abere</a>
                             <p class="m-0">AI Specialist</p>
                         </div>
                     </div>
@@ -239,13 +188,13 @@
                         <div class="team-img position-relative">
                             <img class="img-fluid" src="{{asset('assets')}}/img/team-4.jpg" alt="">
                             <div class="team-social">
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://laravel.com/"target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://laravel.com/"target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="https://laravel.com/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                         <div class="bg-secondary p-4">
-                            <h5>Jackson Robert Scott</h5>
+                            <a href="{{route('home.teacher4')}}" class="nav-item nav-link active">Jackson Robert Scott</a>
                             <p class="m-0">AI Specialist</p>
                         </div>
                     </div>
@@ -268,24 +217,24 @@
                     <div class="owl-carousel testimonial-carousel">
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
+                            <h4 class="font-weight-normal mb-4">A great site to learn from home. The courses are very useful</h4>
                             <img class="img-fluid mx-auto mb-3" src="{{asset('assets')}}/img/testimonial-1.jpg" alt="">
-                            <h5 class="m-0">Client Name</h5>
-                            <span>Profession</span>
+                            <h5 class="m-0">Griffin Gluck</h5>
+                            <span>Student</span>
                         </div>
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
+                            <h4 class="font-weight-normal mb-4">I wanted to improve myself in the field of machine learning, but I could not find resources to work. I progressed very quickly after encountering this site</h4>
                             <img class="img-fluid mx-auto mb-3" src="{{asset('assets')}}/img/testimonial-2.jpg" alt="">
-                            <h5 class="m-0">Client Name</h5>
-                            <span>Profession</span>
+                            <h5 class="m-0">Nicole Stamp</h5>
+                            <span>Student</span>
                         </div>
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
+                            <h4 class="font-weight-normal mb-4">ecourses offers you the opportunity to learn from home. You can learn to code by sitting in your chair without any effort. This is perfect</h4>
                             <img class="img-fluid mx-auto mb-3" src="{{asset('assets')}}/img/testimonial-3.jpg" alt="">
-                            <h5 class="m-0">Client Name</h5>
-                            <span>Profession</span>
+                            <h5 class="m-0">Steven Williams</h5>
+                            <span>Student</span>
                         </div>
                     </div>
                 </div>
