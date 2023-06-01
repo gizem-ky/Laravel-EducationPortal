@@ -38,6 +38,7 @@ Route::get('/teacher1', [HomeController::class, 'teacher1'])->name("home.teacher
 Route::get('/teacher2', [HomeController::class, 'teacher2'])->name("home.teacher2");
 Route::get('/teacher3', [HomeController::class, 'teacher3'])->name("home.teacher3");
 Route::get('/teacher4', [HomeController::class, 'teacher4'])->name("home.teacher4");
+Route::get('/webDesign', [HomeController::class, 'webDesign'])->name("home.webDesign");
 
 
 Route::prefix("/admin")->name("admin.")->controller(AdminController::class)->group(function(){

@@ -51,4 +51,9 @@ class HomeController extends Controller
         return view('home.pages.teacher4');
     }
 
+    public  function webDesign()
+    {
+        return view('home.pages.webDesign');
+    }
+
 }
